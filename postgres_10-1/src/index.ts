@@ -7,7 +7,7 @@ import { Client } from "pg";
 
 const client = new Client({
   connectionString:
-    "postgresql://1_db_owner:DCm0Q5NhxubB@ep-white-voice-a1bdqu1g.ap-southeast-1.aws.neon.tech/1_db?sslmode=require",
+    "postgresql://1_db_owner:[YOUR PASSWORD]@ep-white-voice-a1bdqu1g.ap-southeast-1.aws.neon.tech/1_db?sslmode=require",
 });
 
 // creating Users table -----------------------------------------
